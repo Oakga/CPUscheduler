@@ -1,0 +1,41 @@
+class RoundRobin {
+  int size = 0;
+  PCB tail;
+  PCB currentProcess;
+  
+  public RoundRobin() { }; //creates an empty circular linked list
+  
+  boolean isEmpty() {
+    return (size == 0);
+  }
+  
+  /*
+   *Insert - inserts PCB into the circularly linked list
+   *if empty, set PCB to tail and set next to itself
+   *if not, add from back
+   */
+  public void insert(PCB) { 
+    if (isEmpty()){
+      tail = PCB;
+      tail.next = tail;
+    }
+    else {
+      PCB.next = tail.next;
+      tail.next = PCB;
+      tail = tail.next;
+    }
+    ++size;
+  }
+  
+  /*
+   * Remove -removes and returns current process NOT tail
+   *
+   */
+  public PCB remove() {
+    PCB done = currentProcess;
+    currentProcess = currentProcess.next;
+    done.next = null;                         //for good measure
+    return done;
+  }
+
+}
