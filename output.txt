@@ -1,0 +1,3865 @@
+Scanning in: 147 8 146 117 57 117 51 164 177 236 34 164 76 184 162 50 66 201 110 171 115 
+After adding to RQ,RQ size:1
+Scanning in: 124 70 193 202 206 94 214 204 125 18 222 1 179 
+After adding to RQ,RQ size:2
+Scanning in: 48 6 205 231 4 77 122 10 233 80 20 
+After adding to RQ,RQ size:3
+Scanning in: 61 208 243 230 145 52 159 240 3 40 
+After adding to RQ,RQ size:4
+Scanning in: 79 128 73 230 161 120 187 197 6 42 
+After adding to RQ,RQ size:5
+Scanning in: 75 176 84 198 47 119 17 
+After adding to RQ,RQ size:6
+Scanning in: 77 65 178 200 30 160 203 230 216 43 231 98 236 160 201 7 131 140 169 
+After adding to RQ,RQ size:7
+Scanning in: 67 65 105 51 128 231 35 59 34 228 
+After adding to RQ,RQ size:8
+Scanning in: 119 209 89 110 103 
+After adding to RQ,RQ size:9
+Scanning in: 11 60 12 68 23 220 131 104 155 127 49 127 167 175 164 158 7 162 184 209 162 
+After adding to RQ,RQ size:10
+going through tempPCB :0
+PCB current value: 147
+Since we are running for the first time for value 147
+Current burst completed: 147
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 124
+Since we are running for the first time for value 124
+CPUclock: 150
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 124
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 48
+Since we are running for the first time for value 48
+CPUclock: 280
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 48
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 61
+Since we are running for the first time for value 61
+CPUclock: 320
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 61
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 79
+Since we are running for the first time for value 79
+CPUclock: 390
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 79
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 75
+Since we are running for the first time for value 75
+CPUclock: 460
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 75
+Removed from CPU and put into Blocked Queue PCB number 5
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 77
+Since we are running for the first time for value 77
+CPUclock: 540
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 5
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 77
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 67
+Since we are running for the first time for value 67
+CPUclock: 620
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 67
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :8
+PCB current value: 119
+Since we are running for the first time for value 119
+CPUclock: 680
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 119
+Removed from CPU and put into Blocked Queue PCB number 8
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 11
+Since we are running for the first time for value 11
+CPUclock: 800
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 8
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 11
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 8
+Since we are running for the first time for value 8
+CPUclock: 810
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 8
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 70
+Since we are running for the first time for value 70
+CPUclock: 820
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 70
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 6
+Since we are running for the first time for value 6
+CPUclock: 890
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 6
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 208
+Since we are running for the first time for value 208
+CPUclock: 900
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 208
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 128
+Since we are running for the first time for value 128
+CPUclock: 1110
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 128
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 176
+Since we are running for the first time for value 176
+CPUclock: 1230
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 176
+Removed from CPU and put into Blocked Queue PCB number 5
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 65
+Since we are running for the first time for value 65
+CPUclock: 1410
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 5
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 65
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 65
+Since we are running for the first time for value 65
+CPUclock: 1470
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 65
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :8
+PCB current value: 209
+Since we are running for the first time for value 209
+CPUclock: 1540
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 209
+Removed from CPU and put into Blocked Queue PCB number 8
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 60
+Since we are running for the first time for value 60
+CPUclock: 1750
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 8
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 60
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 146
+Since we are running for the first time for value 146
+CPUclock: 1810
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 146
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 193
+Since we are running for the first time for value 193
+CPUclock: 1950
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 193
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 205
+Since we are running for the first time for value 205
+CPUclock: 2150
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 205
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 243
+Since we are running for the first time for value 243
+CPUclock: 2350
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 243
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 73
+Since we are running for the first time for value 73
+CPUclock: 2600
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 73
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 84
+Since we are running for the first time for value 84
+CPUclock: 2670
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 84
+Removed from CPU and put into Blocked Queue PCB number 5
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 178
+Since we are running for the first time for value 178
+CPUclock: 2750
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 5
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 178
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 105
+Since we are running for the first time for value 105
+CPUclock: 2930
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 105
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :8
+PCB current value: 89
+Since we are running for the first time for value 89
+CPUclock: 3040
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 89
+Removed from CPU and put into Blocked Queue PCB number 8
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 12
+Since we are running for the first time for value 12
+CPUclock: 3120
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 8
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 12
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 117
+Since we are running for the first time for value 117
+CPUclock: 3140
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 117
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 202
+Since we are running for the first time for value 202
+CPUclock: 3250
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 202
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 231
+Since we are running for the first time for value 231
+CPUclock: 3460
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 231
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 230
+Since we are running for the first time for value 230
+CPUclock: 3690
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 230
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 230
+Since we are running for the first time for value 230
+CPUclock: 3920
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 230
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 198
+Since we are running for the first time for value 198
+CPUclock: 4150
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 198
+Removed from CPU and put into Blocked Queue PCB number 5
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 200
+Since we are running for the first time for value 200
+CPUclock: 4340
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 5
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 200
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 51
+Since we are running for the first time for value 51
+CPUclock: 4540
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 51
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :8
+PCB current value: 110
+Since we are running for the first time for value 110
+CPUclock: 4600
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 110
+Removed from CPU and put into Blocked Queue PCB number 8
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 68
+Since we are running for the first time for value 68
+CPUclock: 4710
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 8
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 68
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 57
+Since we are running for the first time for value 57
+CPUclock: 4770
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 57
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 206
+Since we are running for the first time for value 206
+CPUclock: 4830
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 206
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 4
+Since we are running for the first time for value 4
+Current burst completed: 4
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 8 |||  Size of BQ 2
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 145
+Since we are running for the first time for value 145
+CPUclock: 5040
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 8 |||  Size of BQ 1
+CPUclock: 5050
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 145
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 161
+Since we are running for the first time for value 161
+CPUclock: 5190
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 161
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 47
+Since we are running for the first time for value 47
+CPUclock: 5350
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 47
+Removed from CPU and put into Blocked Queue PCB number 5
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 30
+Since we are running for the first time for value 30
+CPUclock: 5390
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 5
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 30
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 128
+Since we are running for the first time for value 128
+CPUclock: 5420
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 128
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :8
+PCB current value: 103
+Since we are running for the first time for value 103
+CPUclock: 5550
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 103
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 173 35 5 171 131 99 85 235 143 247 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :9
+PCB current value: 23
+Since we are running for the first time for value 23
+Current burst completed: 23
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 117
+Since we are running for the first time for value 117
+CPUclock: 5680
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 117
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 94
+Since we are running for the first time for value 94
+CPUclock: 5790
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 94
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 77
+Since we are running for the first time for value 77
+CPUclock: 5890
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 77
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 52
+Since we are running for the first time for value 52
+CPUclock: 5970
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 52
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 120
+Since we are running for the first time for value 120
+CPUclock: 6020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 120
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 119
+Since we are running for the first time for value 119
+CPUclock: 6140
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 119
+Removed from CPU and put into Blocked Queue PCB number 5
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 160
+Since we are running for the first time for value 160
+CPUclock: 6260
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 5
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 160
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 231
+Since we are running for the first time for value 231
+CPUclock: 6420
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 231
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 173
+Since we are running for the first time for value 173
+CPUclock: 6650
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 173
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 220
+Since we are running for the first time for value 220
+CPUclock: 6820
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 220
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 51
+Since we are running for the first time for value 51
+CPUclock: 7040
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 51
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 214
+Since we are running for the first time for value 214
+CPUclock: 7090
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 214
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 122
+Since we are running for the first time for value 122
+CPUclock: 7310
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 122
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 159
+Since we are running for the first time for value 159
+CPUclock: 7430
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 159
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 187
+Since we are running for the first time for value 187
+CPUclock: 7590
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 187
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :5
+PCB current value: 17
+Since we are running for the first time for value 17
+CPUclock: 7770
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 17
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 6 179 153 164 236 140 166 243 136 158 128 201 111 161 98 140 190 175 27 207 237 86 33 138 1 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :6
+PCB current value: 203
+Since we are running for the first time for value 203
+Current burst completed: 203
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 35
+Since we are running for the first time for value 35
+CPUclock: 7990
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 35
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 35
+Since we are running for the first time for value 35
+CPUclock: 8030
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 35
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 131
+Since we are running for the first time for value 131
+CPUclock: 8060
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 131
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 164
+Since we are running for the first time for value 164
+CPUclock: 8190
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 164
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 204
+Since we are running for the first time for value 204
+CPUclock: 8360
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 204
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 10
+Since we are running for the first time for value 10
+CPUclock: 8560
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 10
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 240
+Since we are running for the first time for value 240
+CPUclock: 8570
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 240
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 197
+Since we are running for the first time for value 197
+CPUclock: 8810
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 197
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 6
+Since we are running for the first time for value 6
+CPUclock: 9010
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 6
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 230
+Since we are running for the first time for value 230
+CPUclock: 9020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 230
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 59
+Since we are running for the first time for value 59
+CPUclock: 9250
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 59
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 5
+Since we are running for the first time for value 5
+CPUclock: 9300
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 5
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 104
+Since we are running for the first time for value 104
+CPUclock: 9310
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 104
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 177
+Since we are running for the first time for value 177
+CPUclock: 9410
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 177
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 125
+Since we are running for the first time for value 125
+CPUclock: 9590
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 125
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 233
+Since we are running for the first time for value 233
+CPUclock: 9720
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 233
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 3
+Since we are running for the first time for value 3
+Current burst completed: 3
+Removed from CPU and put into Blocked Queue PCB number 3
+RQ and BQ stats after current burst as follow
+Size of RQ 8 |||  Size of BQ 2
+Number of System jobs: 10
+going through tempPCB :4
+PCB current value: 6
+Since we are running for the first time for value 6
+CPUclock: 9950
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 8 |||  Size of BQ 1
+Current burst completed: 6
+Removed from CPU and put into Blocked Queue PCB number 4
+RQ and BQ stats after current burst as follow
+Size of RQ 8 |||  Size of BQ 2
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 179
+Since we are running for the first time for value 179
+CPUclock: 9960
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 3
+RQ and BQ stats after removing from BQ 
+Size of RQ 8 |||  Size of BQ 1
+CPUclock: 9970
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 4
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 179
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 216
+Since we are running for the first time for value 216
+CPUclock: 10140
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 216
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 34
+Since we are running for the first time for value 34
+CPUclock: 10350
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 34
+Removed from CPU and put into Blocked Queue PCB number 7
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 171
+Since we are running for the first time for value 171
+CPUclock: 10390
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 7
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 171
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 155
+Since we are running for the first time for value 155
+CPUclock: 10560
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 155
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 236
+Since we are running for the first time for value 236
+CPUclock: 10710
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 236
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 18
+Since we are running for the first time for value 18
+CPUclock: 10950
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 18
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 80
+Since we are running for the first time for value 80
+CPUclock: 10970
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 80
+Removed from CPU and put into Blocked Queue PCB number 2
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :3
+PCB current value: 40
+Since we are running for the first time for value 40
+CPUclock: 11050
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 2
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 40
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 116 117 141 121 170 218 190 181 235 158 249 198 19 192 66 249 155 159 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :4
+PCB current value: 42
+Since we are running for the first time for value 42
+Last burst completed: 42
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 30 32 92 25 137 224 65 178 127 10 247 236 185 240 222 119 81 247 155 116 119 11 208 201 178 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :11
+PCB current value: 153
+Since we are running for the first time for value 153
+Current burst completed: 153
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 43
+Since we are running for the first time for value 43
+CPUclock: 11280
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 43
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :7
+PCB current value: 228
+Since we are running for the first time for value 228
+CPUclock: 11320
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 228
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 169 60 117 147 199 235 14 82 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :10
+PCB current value: 131
+Since we are running for the first time for value 131
+Current burst completed: 131
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 127
+Since we are running for the first time for value 127
+CPUclock: 11680
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 127
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 34
+Since we are running for the first time for value 34
+CPUclock: 11810
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 34
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 222
+Since we are running for the first time for value 222
+CPUclock: 11840
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 222
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :2
+PCB current value: 20
+Since we are running for the first time for value 20
+CPUclock: 12070
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 20
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 21 157 18 142 156 178 171 240 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :12
+PCB current value: 116
+Since we are running for the first time for value 116
+Current burst completed: 116
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 30
+Since we are running for the first time for value 30
+CPUclock: 12200
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 30
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 164
+Since we are running for the first time for value 164
+CPUclock: 12230
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 164
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 231
+Since we are running for the first time for value 231
+CPUclock: 12400
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 231
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 169
+Since we are running for the first time for value 169
+CPUclock: 12630
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 169
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 99
+Since we are running for the first time for value 99
+CPUclock: 12800
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 99
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 49
+Since we are running for the first time for value 49
+CPUclock: 12900
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 49
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 164
+Since we are running for the first time for value 164
+CPUclock: 12940
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 164
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 1
+Since we are running for the first time for value 1
+Current burst completed: 1
+Removed from CPU and put into Blocked Queue PCB number 1
+RQ and BQ stats after current burst as follow
+Size of RQ 8 |||  Size of BQ 2
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 21
+Since we are running for the first time for value 21
+CPUclock: 13110
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 8 |||  Size of BQ 1
+CPUclock: 13120
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 1
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 21
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 117
+Since we are running for the first time for value 117
+CPUclock: 13130
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 117
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 32
+Since we are running for the first time for value 32
+CPUclock: 13250
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 32
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 236
+Since we are running for the first time for value 236
+CPUclock: 13280
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 236
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 98
+Since we are running for the first time for value 98
+CPUclock: 13520
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 98
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 60
+Since we are running for the first time for value 60
+CPUclock: 13610
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 60
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 85
+Since we are running for the first time for value 85
+CPUclock: 13670
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 85
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 127
+Since we are running for the first time for value 127
+CPUclock: 13760
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 127
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 76
+Since we are running for the first time for value 76
+CPUclock: 13890
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 76
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :1
+PCB current value: 179
+Since we are running for the first time for value 179
+CPUclock: 13960
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 179
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 86 116 164 132 121 101 89 24 11 24 210 208 184 27 110 63 226 172 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :15
+PCB current value: 157
+Since we are running for the first time for value 157
+Current burst completed: 157
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 141
+Since we are running for the first time for value 141
+CPUclock: 14300
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 141
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 92
+Since we are running for the first time for value 92
+CPUclock: 14440
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 92
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 140
+Since we are running for the first time for value 140
+CPUclock: 14530
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 140
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 236
+Since we are running for the first time for value 236
+CPUclock: 14670
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 236
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 117
+Since we are running for the first time for value 117
+CPUclock: 14910
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 117
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 235
+Since we are running for the first time for value 235
+CPUclock: 15020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 235
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 167
+Since we are running for the first time for value 167
+CPUclock: 15260
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 167
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 184
+Since we are running for the first time for value 184
+CPUclock: 15430
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 184
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 86
+Since we are running for the first time for value 86
+CPUclock: 15610
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 86
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 18
+Since we are running for the first time for value 18
+CPUclock: 15700
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 18
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 121
+Since we are running for the first time for value 121
+CPUclock: 15710
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 121
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 25
+Since we are running for the first time for value 25
+CPUclock: 15830
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 25
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 166
+Since we are running for the first time for value 166
+CPUclock: 15860
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 166
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 160
+Since we are running for the first time for value 160
+CPUclock: 16030
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 160
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 147
+Since we are running for the first time for value 147
+CPUclock: 16190
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 147
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 143
+Since we are running for the first time for value 143
+CPUclock: 16330
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 143
+Removed from CPU and put into Blocked Queue PCB number 10
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 175
+Since we are running for the first time for value 175
+CPUclock: 16480
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 10
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 175
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 162
+Since we are running for the first time for value 162
+CPUclock: 16650
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 162
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 116
+Since we are running for the first time for value 116
+CPUclock: 16810
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 116
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 142
+Since we are running for the first time for value 142
+CPUclock: 16930
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 142
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 170
+Since we are running for the first time for value 170
+CPUclock: 17070
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 170
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 137
+Since we are running for the first time for value 137
+CPUclock: 17240
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 137
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 243
+Since we are running for the first time for value 243
+CPUclock: 17380
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 243
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 201
+Since we are running for the first time for value 201
+CPUclock: 17620
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 201
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 199
+Since we are running for the first time for value 199
+CPUclock: 17820
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 199
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :10
+PCB current value: 247
+Since we are running for the first time for value 247
+CPUclock: 18020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 247
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 67 151 134 122 202 42 106 226 138 45 153 116 244 218 164 96 141 150 30 63 42 231 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :9
+PCB current value: 164
+Since we are running for the first time for value 164
+Current burst completed: 164
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 50
+Since we are running for the first time for value 50
+CPUclock: 18430
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 50
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 164
+Since we are running for the first time for value 164
+CPUclock: 18480
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 164
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 156
+Since we are running for the first time for value 156
+CPUclock: 18650
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 156
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 218
+Since we are running for the first time for value 218
+CPUclock: 18800
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 218
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 224
+Since we are running for the first time for value 224
+CPUclock: 19020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 224
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 136
+Since we are running for the first time for value 136
+CPUclock: 19240
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 136
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 7
+Since we are running for the first time for value 7
+CPUclock: 19380
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 7
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 235
+Since we are running for the first time for value 235
+CPUclock: 19390
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 235
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :17
+PCB current value: 67
+Since we are running for the first time for value 67
+CPUclock: 19620
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 67
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 158
+Since we are running for the first time for value 158
+CPUclock: 19690
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 158
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 66
+Since we are running for the first time for value 66
+CPUclock: 19850
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 66
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 132
+Since we are running for the first time for value 132
+CPUclock: 19910
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 132
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 178
+Since we are running for the first time for value 178
+CPUclock: 20040
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 178
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 190
+Since we are running for the first time for value 190
+CPUclock: 20220
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 190
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 65
+Since we are running for the first time for value 65
+CPUclock: 20410
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 65
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 158
+Since we are running for the first time for value 158
+CPUclock: 20480
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 158
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 131
+Since we are running for the first time for value 131
+CPUclock: 20640
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 131
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 14
+Since we are running for the first time for value 14
+CPUclock: 20770
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 14
+Removed from CPU and put into Blocked Queue PCB number 14
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :17
+PCB current value: 151
+Since we are running for the first time for value 151
+CPUclock: 20780
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 14
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 151
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 7
+Since we are running for the first time for value 7
+CPUclock: 20930
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 7
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 201
+Since we are running for the first time for value 201
+CPUclock: 20940
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 201
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 121
+Since we are running for the first time for value 121
+CPUclock: 21140
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 121
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 171
+Since we are running for the first time for value 171
+CPUclock: 21260
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 171
+Removed from CPU and put into Blocked Queue PCB number 15
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 181
+Since we are running for the first time for value 181
+CPUclock: 21430
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 15
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 181
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 178
+Since we are running for the first time for value 178
+CPUclock: 21610
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 178
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 128
+Since we are running for the first time for value 128
+CPUclock: 21790
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 128
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 140
+Since we are running for the first time for value 140
+CPUclock: 21920
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 140
+Removed from CPU and put into Blocked Queue PCB number 6
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :14
+PCB current value: 82
+Since we are running for the first time for value 82
+CPUclock: 22060
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 6
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 82
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 177 179 132 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :17
+PCB current value: 134
+Since we are running for the first time for value 134
+Current burst completed: 134
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 162
+Since we are running for the first time for value 162
+CPUclock: 22270
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 162
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 110
+Since we are running for the first time for value 110
+CPUclock: 22440
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 110
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 101
+Since we are running for the first time for value 101
+CPUclock: 22550
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 101
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :15
+PCB current value: 240
+Since we are running for the first time for value 240
+CPUclock: 22650
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 240
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 178 12 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :12
+PCB current value: 235
+Since we are running for the first time for value 235
+Current burst completed: 235
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 127
+Since we are running for the first time for value 127
+CPUclock: 23120
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 127
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 201
+Since we are running for the first time for value 201
+CPUclock: 23250
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 201
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :6
+PCB current value: 169
+Since we are running for the first time for value 169
+CPUclock: 23450
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 169
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+putting in new node here
+Scanning in: 140 16 113 177 43 83 221 206 116 132 82 126 181 226 137 58 
+After adding to RQ,RQ size:10
+Size of RQ after adding10Size of BQ after adding0
+going through tempPCB :18
+PCB current value: 177
+Since we are running for the first time for value 177
+Current burst completed: 177
+Removed from CPU and put into Blocked Queue PCB number 18
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :17
+PCB current value: 122
+Since we are running for the first time for value 122
+CPUclock: 23800
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 18
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 122
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 184
+Since we are running for the first time for value 184
+CPUclock: 23920
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 184
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 171
+Since we are running for the first time for value 171
+CPUclock: 24100
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 171
+Removed from CPU and put into Blocked Queue PCB number 0
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :16
+PCB current value: 89
+Since we are running for the first time for value 89
+CPUclock: 24270
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 0
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 89
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :19
+PCB current value: 178
+Since we are running for the first time for value 178
+CPUclock: 24360
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 178
+Removed from CPU and put into Blocked Queue PCB number 19
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :12
+PCB current value: 158
+Since we are running for the first time for value 158
+CPUclock: 24540
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 19
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 158
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :13
+PCB current value: 10
+Since we are running for the first time for value 10
+CPUclock: 24700
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 10
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :11
+PCB current value: 111
+Since we are running for the first time for value 111
+CPUclock: 24710
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 111
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :20
+PCB current value: 140
+Since we are running for the first time for value 140
+CPUclock: 24820
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 140
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :18
+PCB current value: 179
+Since we are running for the first time for value 179
+CPUclock: 24960
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 179
+Removed from CPU and put into Blocked Queue PCB number 18
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :17
+PCB current value: 202
+Since we are running for the first time for value 202
+CPUclock: 25140
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 18
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 202
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :9
+PCB current value: 209
+Since we are running for the first time for value 209
+CPUclock: 25340
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Current burst completed: 209
+Removed from CPU and put into Blocked Queue PCB number 9
+RQ and BQ stats after current burst as follow
+Size of RQ 9 |||  Size of BQ 1
+Number of System jobs: 10
+going through tempPCB :0
+PCB current value: 115
+Since we are running for the first time for value 115
+CPUclock: 25550
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 9
+RQ and BQ stats after removing from BQ 
+Size of RQ 9 |||  Size of BQ 0
+Last burst completed: 115
+RQ and BQ stats after last burst as follow 
+Size of RQ 9 |||  Size of BQ 0
+Number of System jobs: 9
+going through tempPCB :16
+PCB current value: 24
+Since we are running for the first time for value 24
+Current burst completed: 24
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 8 |||  Size of BQ 1
+Number of System jobs: 9
+going through tempPCB :19
+PCB current value: 12
+Since we are running for the first time for value 12
+CPUclock: 25690
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 8 |||  Size of BQ 0
+Last burst completed: 12
+RQ and BQ stats after last burst as follow 
+Size of RQ 8 |||  Size of BQ 0
+Number of System jobs: 8
+going through tempPCB :12
+PCB current value: 249
+Since we are running for the first time for value 249
+Current burst completed: 249
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 7 |||  Size of BQ 1
+Number of System jobs: 8
+going through tempPCB :13
+PCB current value: 247
+Since we are running for the first time for value 247
+CPUclock: 25950
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 7 |||  Size of BQ 0
+Current burst completed: 247
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 7 |||  Size of BQ 1
+Number of System jobs: 8
+going through tempPCB :11
+PCB current value: 161
+Since we are running for the first time for value 161
+CPUclock: 26200
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 7 |||  Size of BQ 0
+Current burst completed: 161
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 7 |||  Size of BQ 1
+Number of System jobs: 8
+going through tempPCB :20
+PCB current value: 16
+Since we are running for the first time for value 16
+CPUclock: 26360
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 7 |||  Size of BQ 0
+Current burst completed: 16
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 7 |||  Size of BQ 1
+Number of System jobs: 8
+going through tempPCB :18
+PCB current value: 132
+Since we are running for the first time for value 132
+CPUclock: 26370
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 7 |||  Size of BQ 0
+Last burst completed: 132
+RQ and BQ stats after last burst as follow 
+Size of RQ 7 |||  Size of BQ 0
+Number of System jobs: 7
+going through tempPCB :17
+PCB current value: 42
+Since we are running for the first time for value 42
+Current burst completed: 42
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 6 |||  Size of BQ 1
+Number of System jobs: 7
+going through tempPCB :9
+PCB current value: 162
+Since we are running for the first time for value 162
+CPUclock: 26550
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 6 |||  Size of BQ 0
+Last burst completed: 162
+RQ and BQ stats after last burst as follow 
+Size of RQ 6 |||  Size of BQ 0
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 11
+Since we are running for the first time for value 11
+Current burst completed: 11
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 198
+Since we are running for the first time for value 198
+CPUclock: 26720
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 198
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :13
+PCB current value: 236
+Since we are running for the first time for value 236
+CPUclock: 26920
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 236
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :11
+PCB current value: 98
+Since we are running for the first time for value 98
+CPUclock: 27150
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 98
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :20
+PCB current value: 113
+Since we are running for the first time for value 113
+CPUclock: 27250
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 113
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :17
+PCB current value: 106
+Since we are running for the first time for value 106
+CPUclock: 27370
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 106
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 24
+Since we are running for the first time for value 24
+CPUclock: 27470
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 24
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 19
+Since we are running for the first time for value 19
+CPUclock: 27500
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 19
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :13
+PCB current value: 185
+Since we are running for the first time for value 185
+CPUclock: 27510
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 185
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :11
+PCB current value: 140
+Since we are running for the first time for value 140
+CPUclock: 27700
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 140
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :20
+PCB current value: 177
+Since we are running for the first time for value 177
+CPUclock: 27840
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 177
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :17
+PCB current value: 226
+Since we are running for the first time for value 226
+CPUclock: 28020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 226
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 210
+Since we are running for the first time for value 210
+CPUclock: 28240
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 210
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 192
+Since we are running for the first time for value 192
+CPUclock: 28450
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 192
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :13
+PCB current value: 240
+Since we are running for the first time for value 240
+CPUclock: 28640
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 240
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :11
+PCB current value: 190
+Since we are running for the first time for value 190
+CPUclock: 28880
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 190
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :20
+PCB current value: 43
+Since we are running for the first time for value 43
+CPUclock: 29070
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 43
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :17
+PCB current value: 138
+Since we are running for the first time for value 138
+CPUclock: 29120
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 138
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 208
+Since we are running for the first time for value 208
+CPUclock: 29260
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 208
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 66
+Since we are running for the first time for value 66
+CPUclock: 29460
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 66
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :13
+PCB current value: 222
+Since we are running for the first time for value 222
+CPUclock: 29530
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 222
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :11
+PCB current value: 175
+Since we are running for the first time for value 175
+CPUclock: 29750
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 175
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :20
+PCB current value: 83
+Since we are running for the first time for value 83
+CPUclock: 29930
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 83
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :17
+PCB current value: 45
+Since we are running for the first time for value 45
+CPUclock: 30010
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 45
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 184
+Since we are running for the first time for value 184
+CPUclock: 30050
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 184
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 249
+Since we are running for the first time for value 249
+CPUclock: 30240
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 249
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :13
+PCB current value: 119
+Since we are running for the first time for value 119
+CPUclock: 30490
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 119
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :11
+PCB current value: 27
+Since we are running for the first time for value 27
+CPUclock: 30610
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 27
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :20
+PCB current value: 221
+Since we are running for the first time for value 221
+CPUclock: 30630
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 221
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :17
+PCB current value: 153
+Since we are running for the first time for value 153
+CPUclock: 30850
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 153
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 27
+Since we are running for the first time for value 27
+CPUclock: 31010
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 27
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 155
+Since we are running for the first time for value 155
+CPUclock: 31030
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 155
+Removed from CPU and put into Blocked Queue PCB number 12
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :13
+PCB current value: 81
+Since we are running for the first time for value 81
+CPUclock: 31190
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 12
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 81
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :11
+PCB current value: 207
+Since we are running for the first time for value 207
+CPUclock: 31270
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 207
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :20
+PCB current value: 206
+Since we are running for the first time for value 206
+CPUclock: 31480
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 206
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :17
+PCB current value: 116
+Since we are running for the first time for value 116
+CPUclock: 31680
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 116
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :16
+PCB current value: 110
+Since we are running for the first time for value 110
+CPUclock: 31800
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Current burst completed: 110
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 5 |||  Size of BQ 1
+Number of System jobs: 6
+going through tempPCB :12
+PCB current value: 159
+Since we are running for the first time for value 159
+CPUclock: 31910
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 5 |||  Size of BQ 0
+Last burst completed: 159
+RQ and BQ stats after last burst as follow 
+Size of RQ 5 |||  Size of BQ 0
+Number of System jobs: 5
+going through tempPCB :13
+PCB current value: 247
+Since we are running for the first time for value 247
+Current burst completed: 247
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :11
+PCB current value: 237
+Since we are running for the first time for value 237
+CPUclock: 32320
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 237
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :20
+PCB current value: 116
+Since we are running for the first time for value 116
+CPUclock: 32550
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 116
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :17
+PCB current value: 244
+Since we are running for the first time for value 244
+CPUclock: 32670
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 244
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :16
+PCB current value: 63
+Since we are running for the first time for value 63
+CPUclock: 32910
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 63
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :13
+PCB current value: 155
+Since we are running for the first time for value 155
+CPUclock: 32980
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 155
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :11
+PCB current value: 86
+Since we are running for the first time for value 86
+CPUclock: 33130
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 86
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :20
+PCB current value: 132
+Since we are running for the first time for value 132
+CPUclock: 33220
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 132
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :17
+PCB current value: 218
+Since we are running for the first time for value 218
+CPUclock: 33350
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 218
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :16
+PCB current value: 226
+Since we are running for the first time for value 226
+CPUclock: 33570
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 226
+Removed from CPU and put into Blocked Queue PCB number 16
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :13
+PCB current value: 116
+Since we are running for the first time for value 116
+CPUclock: 33790
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 16
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 116
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :11
+PCB current value: 33
+Since we are running for the first time for value 33
+CPUclock: 33910
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 33
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :20
+PCB current value: 82
+Since we are running for the first time for value 82
+CPUclock: 33940
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 82
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :17
+PCB current value: 164
+Since we are running for the first time for value 164
+CPUclock: 34020
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Current burst completed: 164
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 4 |||  Size of BQ 1
+Number of System jobs: 5
+going through tempPCB :16
+PCB current value: 172
+Since we are running for the first time for value 172
+CPUclock: 34190
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 4 |||  Size of BQ 0
+Last burst completed: 172
+RQ and BQ stats after last burst as follow 
+Size of RQ 4 |||  Size of BQ 0
+Number of System jobs: 4
+going through tempPCB :13
+PCB current value: 119
+Since we are running for the first time for value 119
+Current burst completed: 119
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 3 |||  Size of BQ 1
+Number of System jobs: 4
+going through tempPCB :11
+PCB current value: 138
+Since we are running for the first time for value 138
+CPUclock: 34480
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 3 |||  Size of BQ 0
+Current burst completed: 138
+Removed from CPU and put into Blocked Queue PCB number 11
+RQ and BQ stats after current burst as follow
+Size of RQ 3 |||  Size of BQ 1
+Number of System jobs: 4
+going through tempPCB :20
+PCB current value: 126
+Since we are running for the first time for value 126
+CPUclock: 34620
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 11
+RQ and BQ stats after removing from BQ 
+Size of RQ 3 |||  Size of BQ 0
+Current burst completed: 126
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 3 |||  Size of BQ 1
+Number of System jobs: 4
+going through tempPCB :17
+PCB current value: 96
+Since we are running for the first time for value 96
+CPUclock: 34740
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 3 |||  Size of BQ 0
+Current burst completed: 96
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 3 |||  Size of BQ 1
+Number of System jobs: 4
+going through tempPCB :13
+PCB current value: 11
+Since we are running for the first time for value 11
+CPUclock: 34840
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 3 |||  Size of BQ 0
+Current burst completed: 11
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 3 |||  Size of BQ 1
+Number of System jobs: 4
+going through tempPCB :11
+PCB current value: 1
+Since we are running for the first time for value 1
+Last burst completed: 1
+RQ and BQ stats after last burst as follow 
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :20
+PCB current value: 181
+Since we are running for the first time for value 181
+CPUclock: 34850
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 181
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :17
+PCB current value: 141
+Since we are running for the first time for value 141
+CPUclock: 35030
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 141
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :13
+PCB current value: 208
+Since we are running for the first time for value 208
+CPUclock: 35170
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 208
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :20
+PCB current value: 226
+Since we are running for the first time for value 226
+CPUclock: 35380
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 226
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :17
+PCB current value: 150
+Since we are running for the first time for value 150
+CPUclock: 35610
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 150
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :13
+PCB current value: 201
+Since we are running for the first time for value 201
+CPUclock: 35760
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 201
+Removed from CPU and put into Blocked Queue PCB number 13
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :20
+PCB current value: 137
+Since we are running for the first time for value 137
+CPUclock: 35960
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 13
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 137
+Removed from CPU and put into Blocked Queue PCB number 20
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :17
+PCB current value: 30
+Since we are running for the first time for value 30
+CPUclock: 36090
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 20
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Current burst completed: 30
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 2 |||  Size of BQ 1
+Number of System jobs: 3
+going through tempPCB :13
+PCB current value: 178
+Since we are running for the first time for value 178
+CPUclock: 36120
+Io process time since 
+Blocked Queue is not empty 
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 2 |||  Size of BQ 0
+Last burst completed: 178
+RQ and BQ stats after last burst as follow 
+Size of RQ 2 |||  Size of BQ 0
+Number of System jobs: 2
+going through tempPCB :20
+PCB current value: 58
+Since we are running for the first time for value 58
+Last burst completed: 58
+RQ and BQ stats after last burst as follow 
+Size of RQ 1 |||  Size of BQ 0
+Number of System jobs: 1
+going through tempPCB :17
+PCB current value: 63
+Since we are running for the first time for value 63
+Current burst completed: 63
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 0 |||  Size of BQ 1
+Number of System jobs: 1
+RQ is empty but BQ is not case:
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 1 |||  Size of BQ 0
+Number of System jobs: 1
+going through tempPCB :17
+PCB current value: 42
+Since we are running for the first time for value 42
+Current burst completed: 42
+Removed from CPU and put into Blocked Queue PCB number 17
+RQ and BQ stats after current burst as follow
+Size of RQ 0 |||  Size of BQ 1
+Number of System jobs: 1
+RQ is empty but BQ is not case:
+Removed from BQ and Put into RQ PCB number: 17
+RQ and BQ stats after removing from BQ 
+Size of RQ 1 |||  Size of BQ 0
+Number of System jobs: 1
+going through tempPCB :17
+PCB current value: 231
+Since we are running for the first time for value 231
+Last burst completed: 231
+RQ and BQ stats after last burst as follow 
+Size of RQ 0 |||  Size of BQ 0
+Number of System jobs: 0
+ReadyQueue_size_in_the_end 0
+You have succeeded

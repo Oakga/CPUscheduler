@@ -21,13 +21,15 @@ public class cpuscheduler {
 			textfile=args[2];
 			quantum=null;
 			//SJF(textfile);
+			break;
 		}
 		case "RR":{
 			textfile=args[3];
 			quantum=args[2];
 			//RR(quantum,textfile);
+			break;
 		}
-		default:{}
+		default:{System.out.println("No argument");}
 		}
 	}
 	

@@ -9,7 +9,8 @@ public class FCFS extends PriorityQueue{
 	Queue RQ=new LinkedList<PCB>();
 	Queue BQ=new LinkedList<PCB>();
 	int time_in_BQ,CPUclock,Systemjobs,PCB_burst_process_time_unit,PCB_burst_left_time_unit;
-
+	boolean isFirsttime=true;
+	boolean needmore=false;
 	
 	//Algorithm constructor
 	public FCFS(){
@@ -19,48 +20,127 @@ public class FCFS extends PriorityQueue{
 	//**********************MAIN RUNNING PROGRAM****************
 	public void run(String filename) throws FileNotFoundException{
 		File givenfile=new File(filename);
-		
-		Scanner scan= new Scanner(givenfile);
-		//reading in file
-		
+		Scanner scan=new Scanner(givenfile);
 		String newline=null;
 		PCB tempPCB=null;
 		
-		while(Systemjobs<=9){
-			if(scan.hasNextLine()){
-				newline=scan.nextLine();
-				ReadyQueue_Add(newline);
-				++Systemjobs;
-			}
-			else {break;}
-		}//while loop
-		System.out.println("_________________Ready_Queue Construction complete____________");
-		int i=10;
-		while(true){
-			if(Systemjobs<=9){
-				if(scan.hasNextLine()){
-					newline=scan.nextLine();
-					ReadyQueue_Add(newline);
-					++Systemjobs;
-					System.out.println(i);
-					}//reincrement the system jobs number
-				}
-			
-			//if next line exist read in to fill in the ready queue
-			//otherwise finish whatever left in the system
-			
-			if(Systemjobs==0 && !(scan.hasNextLine()))break;
-				tempPCB=ReadyQueue_Remove();
-				tempPCB.printPCBbursts();
-				--Systemjobs;
-				i++;
-				//CPU_compute(tempPCB);//start running
-				//runjob will come back here after changing system jobs number and thus another cycle continue;
-				
-			 
+		Systemjobs=0;
+		while(Systemjobs<10){
+		scan.hasNextLine();
+		newline=scan.nextLine();
+		ReadyQueue_Add(newline);
+		RQ.size();
+		Systemjobs++;
+		}//while
+		/**************************Ready Queue Construction**************************/
+		while(Systemjobs>0){
+		
+		gothroughburst();
+		System.out.println("Number of System jobs: "+Systemjobs);
+		//if one job goes out another one come in
+		if(needmore==true){
+		if(scan.hasNextLine()){
+			System.out.println("putting in new node here");
+			newline=scan.nextLine();
+			ReadyQueue_Add(newline);
+			System.out.println("Size of RQ after adding"+RQ.size()+"Size of BQ after adding"+BQ.size());
+
+			Systemjobs++;
+			}//if
 		}
-		scan.close();//don't forget to close the scanner
+		}//while
+		
+		System.out.println("ReadyQueue_size_in_the_end "+RQ.size());
+		scan.close();
 	}
+	
+	public void gothroughburst(){
+		PCB tempPCB=null;
+		PCB tempPCB2=null;
+		if(!RQ.isEmpty()){
+			tempPCB=ReadyQueue_Remove();
+			System.out.println("going through tempPCB :"+tempPCB.PCBid());
+			System.out.println("PCB current value: "+tempPCB.returnCurrent());
+			while(true){
+				if(isFirsttime){
+					System.out.println("Since we are running for the first time for value "+tempPCB.returnCurrent());
+					PCB_burst_process_time_unit=0;
+					PCB_burst_left_time_unit=tempPCB.returnCurrent();
+					//System.out.println(PCB_burst_left_time_unit);
+					isFirsttime=false;
+								}
+				PCB_burst_process_time_unit+=1;
+				CPUclock+=1;
+				PCB_burst_left_time_unit=tempPCB.returnCurrent()-PCB_burst_process_time_unit;
+				/*System.out.println("Return current cpu burst:"+tempPCB.returnCurrent());
+				System.out.println("PCB_burst_process_time_unit"+PCB_burst_process_time_unit);
+				System.out.println("PCB_burst_left_time_unit:"+PCB_burst_left_time_unit);*/
+				
+				//CONDITION:IOBURST
+				if(CPUclock%10==0){
+					if(!BQ.isEmpty()){
+						System.out.println("CPUclock: "+CPUclock);
+						System.out.println("Io process time since ");
+						System.out.println("Blocked Queue is not empty ");
+						tempPCB2=BlockedQueue_Remove();
+						ReadyQueue_Add(tempPCB2);
+						System.out.println("Removed from BQ and Put into RQ PCB number: "+tempPCB2.PCBid());
+						
+						System.out.println("RQ and BQ stats after removing from BQ ");
+						System.out.println("Size of RQ "+RQ.size()+" |||  "+"Size of BQ "+BQ.size());
+
+									}//second if
+									}//first if
+				
+				//CONDITION:BURST COMPLETE LAST OR NOT
+				if(PCB_burst_left_time_unit<=0){
+					if(tempPCB.IsLastBurst()){
+						System.out.println("Last burst completed: "+tempPCB.returnCurrent());
+						isFirsttime=true;
+						System.out.println("RQ and BQ stats after last burst as follow ");
+						System.out.println("Size of RQ "+RQ.size()+" |||  "+"Size of BQ "+BQ.size());
+
+						--Systemjobs;
+						needmore=true;
+						break;
+						}//second if(tempPCB.IsLastBurst()){
+					else{
+						System.out.println("Current burst completed: "+tempPCB.returnCurrent());
+						tempPCB.nextBurst();
+						BlockedQueue_Add(tempPCB);
+						System.out.println("Removed from CPU and put into Blocked Queue PCB number "+tempPCB.PCBid());
+						isFirsttime=true;
+						System.out.println("RQ and BQ stats after current burst as follow");
+						System.out.println("Size of RQ "+RQ.size()+" |||  "+"Size of BQ "+BQ.size());
+
+						needmore=false;
+						break;
+						}//else
+						}//first if(PCB_burst_left_time_unit<=0){
+						}//while true	
+						}//if ready queue is not empty case
+		else if(!BQ.isEmpty()){
+				System.out.println("RQ is empty but BQ is not case:");
+				CPUclock+=10;
+				tempPCB2=BlockedQueue_Remove();
+				System.out.println("Removed from BQ and Put into RQ PCB number: "+tempPCB2.PCBid());
+				ReadyQueue_Add(tempPCB2);
+				System.out.println("RQ and BQ stats after removing from BQ ");
+				System.out.println("Size of RQ "+RQ.size()+" |||  "+"Size of BQ "+BQ.size());
+
+			}//if BQ is not empty
+		else {System.out.println("both Q are empty");
+		System.out.println("RQ and BQ stats at the end: ");
+		System.out.println("Size of RQ "+RQ.size()+" |||  "+"Size of BQ "+BQ.size());
+
+		needmore=true;
+		}
+	
+	}//method end
+		
+	
+	
+	
 	
 	
 	//********************Ready Queue****************
@@ -90,10 +170,9 @@ public class FCFS extends PriorityQueue{
 	
 	//removing the first node from Ready Queue
 	private PCB ReadyQueue_Remove(){
-		System.out.println("Amount of systemjobs before removing:"+Systemjobs);
 	PCB tempPCBnode = (PCB) RQ.remove();
 	tempPCBnode.state="running";
-	System.out.println("size of RQ after removing:"+RQ.size());
+	
 	
 	return tempPCBnode;
 	}
@@ -136,7 +215,7 @@ public class FCFS extends PriorityQueue{
 	
 	private void print(PCB tempPCB){	
 		System.out.println("print PCB");
-	
+		tempPCB.printPCBbursts();
 	}
 	private void TimeUnit200(){
 		System.out.println("200 time unit reach");
@@ -147,20 +226,25 @@ public class FCFS extends PriorityQueue{
 	//PCB_burst_left_time_unit has to be set to current cpu burst in run
 	private void CPU_compute(PCB tempPCB){
 		PCB_burst_process_time_unit=0;
+		int i=0;
 		while(true){
 			
 		//processing
-		PCB_burst_process_time_unit+=1;
-		PCB_burst_left_time_unit=(tempPCB.returnCurrent())-PCB_burst_process_time_unit;
 		CPUclock+=1;
-		
+		PCB_burst_process_time_unit+=1;
+		System.out.println("Burst time process:"+PCB_burst_process_time_unit);
+		System.out.println("Burst time left: before subtracting"+PCB_burst_left_time_unit);
+		PCB_burst_left_time_unit=(tempPCB.returnCurrent())-PCB_burst_process_time_unit;
+		System.out.println("Burst time left: after subtracting"+PCB_burst_left_time_unit);
+		System.out.println("CPU clock:"+CPUclock);
+		i++;
 		//******************************Cases***********************************
 		//if finish case
-		if(PCB_burst_left_time_unit==0){
+		if(PCB_burst_left_time_unit<=0){
 			if(tempPCB.IsLastBurst())
 			{ //if it is last cpu burst of the PCB
 				print(tempPCB); //then print its values
-				Systemjobs--;
+				
 				PCB_burst_process_time_unit=0;
 				break; //this will go back and put in a new job
 			}
@@ -196,4 +280,5 @@ public class FCFS extends PriorityQueue{
 		
 	}
 }
+
 	
