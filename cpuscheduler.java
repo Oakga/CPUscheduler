@@ -7,21 +7,32 @@ public class cpuscheduler {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		String algorithm=args[0];
-		fileRead("new.txt");	
-		
-	}
-	public static void fileRead(String text) throws FileNotFoundException{
-		File test=new File(text);
-		Scanner sc=new Scanner(test);
-		String newLine=null;
-		while(sc.hasNext()){
-			JobQueue.push(newLine);//assuming job queue exist//need to specified the time it arrive to the jobquene 
-			//with a timer though
+		String algorithm="FCFS",quantum,textfile;
+		switch(algorithm){
+		case "FCFS":{
+			//textfile=args[2];
+			quantum=null;
+			FCFS TA=new FCFS();
+			TA.run("JobQueue.txt");
+			System.out.println("You have succeeded");
+			break;
 		}
-		sc.close();
+		case "SJF":{
+			textfile=args[2];
+			quantum=null;
+			//SJF(textfile);
+		}
+		case "RR":{
+			textfile=args[3];
+			quantum=args[2];
+			//RR(quantum,textfile);
+		}
+		default:{}
+		}
 	}
+	
 }
+
 		
 	
 			
