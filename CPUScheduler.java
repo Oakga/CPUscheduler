@@ -12,7 +12,7 @@ public class CPUScheduler {
 	public int CPUStatus = 1;
 	public int CPUallocatedBurst;
 	public int timeslice;
-	public String Alg;
+	public String Inputline;
 	public int printcounter;
 	public Scanner inFile;
 	
@@ -131,8 +131,13 @@ public class CPUScheduler {
 	
 	public void main(String args[]) throws FileNotFoundException { 
 		BlockedQueue = new BlockedQueue();
-		Alg = args[0];
-		setDispatch(Alg, args[1], args[2]);
+		StringBuilder builder=new StringBuilder();
+		for(String a: args){
+			builder.append(a+" ");
+		}
+		InputLine=builder.toString();
+		
+		setDispatch(InputLine);
 		printcounter = 0;
 		String data = inFile.nextLine();
 		
