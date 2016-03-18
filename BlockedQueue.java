@@ -38,4 +38,5 @@ public class BlockedQueue implements Queue{
 		return size;
 	}
 	
+	void print();
 }
