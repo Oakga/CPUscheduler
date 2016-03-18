@@ -221,64 +221,7 @@ public class FCFS extends PriorityQueue{
 		System.out.println("200 time unit reach");
 	}
 	
-	//******************************RUNNING PROCESSS********************
-	
-	//PCB_burst_left_time_unit has to be set to current cpu burst in run
-	private void CPU_compute(PCB tempPCB){
-		PCB_burst_process_time_unit=0;
-		int i=0;
-		while(true){
-			
-		//processing
-		CPUclock+=1;
-		PCB_burst_process_time_unit+=1;
-		System.out.println("Burst time process:"+PCB_burst_process_time_unit);
-		System.out.println("Burst time left: before subtracting"+PCB_burst_left_time_unit);
-		PCB_burst_left_time_unit=(tempPCB.returnCurrent())-PCB_burst_process_time_unit;
-		System.out.println("Burst time left: after subtracting"+PCB_burst_left_time_unit);
-		System.out.println("CPU clock:"+CPUclock);
-		i++;
-		//******************************Cases***********************************
-		//if finish case
-		if(PCB_burst_left_time_unit<=0){
-			if(tempPCB.IsLastBurst())
-			{ //if it is last cpu burst of the PCB
-				print(tempPCB); //then print its values
-				
-				PCB_burst_process_time_unit=0;
-				break; //this will go back and put in a new job
-			}
-			else
-			{ 
-				stopjob(tempPCB);
-				tempPCB.nextBurst();
-			}
-		}//finish 0 case
-		if(CPUclock%10==0){
-			if(!BQ.isEmpty())IOprocess();
-		}
-		
-		//200 time unit case
-		if(CPUclock==200){
-			TimeUnit200();
-		}
-		
-		}//while true loop
-	}//end of compute method class
-	
-	private void IOprocess(){
-			PCB tempPCB=null;
-			tempPCB=BlockedQueue_Remove();
-			ReadyQueue_Add(tempPCB);
-			tempPCB.time_in_BQ=(CPUclock-tempPCB.time_in_BQ);
-	}
-	private void stopjob(PCB tempPCB){
-		
-		BlockedQueue_Add(tempPCB);
-		tempPCB.time_in_BQ = CPUclock;
-		//ready_queue_add
-		
-	}
+
 }
 
 	
