@@ -59,7 +59,7 @@ public class CPUScheduler {
 			++BlockedQueue.iocounter;
 			++printcounter;
 			++CPUClock;
-			++job.processTime;
+			++job.programCounter;
 			--timeslice;
 			//completion check
 			if(job.lastBurst() && job.cpuBursts[job.currentBurst] == 0) completeJob(job);
