@@ -12,7 +12,7 @@ public class CPUScheduler {
 	public int CPUStatus = 1;
 	public int CPUallocatedBurst;
 	public int timeslice;
-	public String Inputline;
+	public String InputLine;
 	public int printcounter;
 	public Scanner inFile;
 	
