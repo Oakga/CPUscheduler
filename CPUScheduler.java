@@ -18,8 +18,23 @@ public class CPUScheduler {
 	
 	PCB getJob(String data) //creates a PCB object from a given string (line)
 	{
-		// ToDo
-		return null;
+		Scanner scan=new Scanner(data);//read data
+		
+		int job_id,arrival_time,burstCount=0;
+		String bursts;
+		PCB PCBnode;
+		
+		job_id=scan.nextInt();
+		arrival_time=scan.nextInt();
+		burstCount=scan.nextInt();
+		bursts=scan.nextLine();
+		
+		PCBnode=new PCB(job_id,arrival_time,burstCount,bursts);
+		
+		scan.close();
+		
+		return PCBnode;
+
 	}
 	
 	public void insertRQ(PCB job) //insert into ReadyQueue.
