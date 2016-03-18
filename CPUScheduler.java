@@ -133,6 +133,7 @@ public class CPUScheduler {
 	
 	public static void main(String args[]) throws FileNotFoundException { 
 		BlockedQueue = new BlockedQueue();
+		//CPUClock= 0;
 		
 		StringBuilder builder=new StringBuilder();
 		for(String a: args){
@@ -143,11 +144,20 @@ public class CPUScheduler {
 		setDispatch(InputLine);
 		printcounter = 0;
 		String data = inFile.nextLine();
-		
-		while (true) {
+		int a = 0;
+		/*while (a < 10) {
 			if (CPUStatus + ((Queue)ReadyQueue).size() +BlockedQueue.size() <10) insertRQ(getJob(data));
 			if (CPUStatus==1)runJob(((Queue)ReadyQueue).remove());
+			a++;
+		}*/
+		
+		while(a<10) {
+			//data = inFile.nextLine();
+			insertRQ(getJob(data));
+			++a;
 		}
+		
+		((Queue)ReadyQueue).print();
 		
 		
 	}
