@@ -57,7 +57,7 @@ public class ShortestJobFirst implements Queue {
 	
 	public void print(){
 		spot = front.getNext();
-		while(spot.getNext().getNext() != sentinel){
+		while(spot.getNext() != sentinel){
 			System.out.println("jobID: " + spot.job_id + " burst: " + spot.cpuBursts[spot.currentBurst]);
 			spot = spot.getNext();
 		}
