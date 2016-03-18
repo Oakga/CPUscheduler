@@ -5,18 +5,18 @@ import java.util.*;
 
 
 public class CPUScheduler {
-	Object ReadyQueue;
+	static Object ReadyQueue;
 	public static int CPUClock;
-	public BlockedQueue BlockedQueue;;
+	public static BlockedQueue BlockedQueue;;
 	//public int systemJobs;
-	public int CPUStatus = 1;
+	public static int CPUStatus = 1;
 	public int CPUallocatedBurst;
-	public int timeslice;
-	public String InputLine;
-	public int printcounter;
-	public Scanner inFile;
+	public static int timeslice;
+	public static String Alg;
+	public static int printcounter;
+	public static Scanner inFile;
 	
-	PCB getJob(String data) //creates a PCB object from a given string (line)
+	static PCB getJob(String data) //creates a PCB object from a given string (line)
 	{
 		Scanner scan=new Scanner(data);//read data
 		
@@ -37,7 +37,7 @@ public class CPUScheduler {
 
 	}
 	
-	public void insertRQ(PCB job) //insert into ReadyQueue.
+	public static void insertRQ(PCB job) //insert into ReadyQueue.
 	{
 		((Queue)ReadyQueue).insert(job);
 		job.waitTime += (CPUClock - job.ATBQ);
@@ -46,7 +46,7 @@ public class CPUScheduler {
 		//++systemJobs;
 	}
 	
-	public void runJob(PCB job)
+	public static void runJob(PCB job)
 	{
 		CPUStatus = 1;
 		job.waitTime += (CPUClock-job.ATRQ);
@@ -86,17 +86,17 @@ public class CPUScheduler {
 		
 	} //end of runJOb
 	
-	public void printStats() {
+	public static void printStats() {
 		
 	}
 	
-	public void completeJob(PCB job) {
+	public static void completeJob(PCB job) {
 		job.completion = CPUClock;
 		job.state = "Completed";
 		//calculate stats;
 	}
 	
-	public void stopJob(PCB job){
+	public static void stopJob(PCB job){
 		BlockedQueue.insert(job);
 		job.ATBQ = CPUClock;
 		job.state = "Blocked";
@@ -108,34 +108,37 @@ public class CPUScheduler {
 */	//constant check.		
 	}
 	
-	public void setDispatch(String A, String B, String C) throws FileNotFoundException
+	public static void setDispatch(String benis) throws FileNotFoundException
 	{
-		switch (A)
+		String []bnes = benis.split(" ");
+		Alg = bnes[0];
+		switch (Alg)
 		{
 		case "FCFS":
 			ReadyQueue = new FirstComeFirstServed();
-			inFile = new Scanner(new FileReader(B));
+			inFile = new Scanner(new FileReader(bnes[1]));
 			break;
 		case "SJF":
 			ReadyQueue = new ShortestJobFirst();
-			inFile = new Scanner(new FileReader(B));
+			inFile = new Scanner(new FileReader(bnes[1]));
 			break;
 		case "RR":
 			ReadyQueue = new RoundRobin();
-			timeslice = Integer.parseInt(B);
-			inFile = new Scanner(new FileReader(C));
+			timeslice = Integer.parseInt(bnes[1]);
+			inFile = new Scanner(new FileReader(bnes[2]));
 			break;
 		}
 	}
 	
 	
-	public void main(String args[]) throws FileNotFoundException { 
+	public static void main(String args[]) throws FileNotFoundException { 
 		BlockedQueue = new BlockedQueue();
+		
 		StringBuilder builder=new StringBuilder();
 		for(String a: args){
 			builder.append(a+" ");
 		}
-		InputLine=builder.toString();
+		String InputLine=builder.toString();
 		
 		setDispatch(InputLine);
 		printcounter = 0;
