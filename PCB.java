@@ -1,3 +1,4 @@
+package CPUScheduler;
 
 public class PCB {
   public int job_id;
@@ -44,11 +45,8 @@ public class PCB {
   }
   public void initBursts(String Bursts)
   {
-	  System.out.println(Bursts);
+	  //System.out.println(Bursts);
 	  String[] array = Bursts.replaceAll("(^\\s+|\\s+$)", "").split("\\s+");
-	  for(String a: array){
-		  System.out.println(a);
-	  }
 	  for (int i=0; i<array.length; ++i) {
 		  this.cpuBursts[i] = Integer.parseInt(array[i]);
 	  };
