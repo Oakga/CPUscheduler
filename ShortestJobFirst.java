@@ -9,8 +9,11 @@ public class ShortestJobFirst implements Queue {
 	
 	ShortestJobFirst()
 	{
-		sentinel = null;
+		sentinel = new PCB();
+		//sentinel = null;
+		back = new PCB();
 		back.setNext(sentinel);
+		front = new PCB();
 		front.setNext(back);
 		size = 0;
 		
@@ -27,8 +30,9 @@ public class ShortestJobFirst implements Queue {
 
 	@Override
 	public void findspot(PCB newJob) {
+		//spot = new PCB();
 		spot = front;
-		while(spot.getNext() != sentinel && spot.getNext().cpuBursts[spot.getNext().currentBurst] < newJob.cpuBursts[newJob.currentBurst]){
+		while(spot.getNext().getNext() != sentinel && spot.getNext().cpuBursts[spot.getNext().currentBurst] < newJob.cpuBursts[newJob.currentBurst]){
 			spot = spot.getNext();
 		}	
 	}
@@ -52,9 +56,9 @@ public class ShortestJobFirst implements Queue {
 	}
 	
 	public void print(){
-		spot = front;
-		while(spot.getNext() != sentinel){
-			System.out.println("job id: " + spot.job_id + "burst: " + spot.cpuBursts[spot.currentBurst] + "\n");
+		spot = front.getNext();
+		while(spot.getNext().getNext() != sentinel){
+			System.out.println("jobID: " + spot.job_id + " burst: " + spot.cpuBursts[spot.currentBurst]);
 			spot = spot.getNext();
 		}
 	}
