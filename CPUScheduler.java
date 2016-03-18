@@ -143,7 +143,6 @@ public class CPUScheduler {
 		
 		setDispatch(InputLine);
 		printcounter = 0;
-		String data = inFile.nextLine();
 		int a = 0;
 		/*while (a < 10) {
 			if (CPUStatus + ((Queue)ReadyQueue).size() +BlockedQueue.size() <10) insertRQ(getJob(data));
@@ -152,8 +151,7 @@ public class CPUScheduler {
 		}*/
 		
 		while(a<10) {
-			//data = inFile.nextLine();
-			insertRQ(getJob(data));
+			insertRQ(getJob(inFile.nextLine()));
 			++a;
 		}
 		
