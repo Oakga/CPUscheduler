@@ -1,4 +1,3 @@
-package nonRetardedCPUScheduler;
 
 public class PCB {
   public int job_id;
@@ -38,13 +37,18 @@ public class PCB {
 	  this.waitTime = arrival;
 	  this.processTime = 0;
 	  virgin = true;
+	  initBursts(Bursts);
   };
   
   public PCB(String data){
   }
   public void initBursts(String Bursts)
   {
-	  String[] array = Bursts.split(" ");
+	  System.out.println(Bursts);
+	  String[] array = Bursts.replaceAll("(^\\s+|\\s+$)", "").split("\\s+");
+	  for(String a: array){
+		  System.out.println(a);
+	  }
 	  for (int i=0; i<array.length; ++i) {
 		  this.cpuBursts[i] = Integer.parseInt(array[i]);
 	  };
@@ -65,6 +69,6 @@ public class PCB {
   }
   
   public void printStats(){
-	  //print a bunch of shit;
+	  System.out.println("Job Id: "+job_id+"|"+"Arrival Time: "+arrival+"|"+"Completion time: "+completion+"|"+"Processing time: "+processTime+"|"+"waiting time: "+waitTime+"|"+"turnaround time"+turnaround);
   }
 }
