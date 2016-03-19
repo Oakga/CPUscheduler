@@ -1,4 +1,4 @@
-package nonRetardedCPUScheduler;
+package CPUScheduler;
 
 public class ShortestJobFirst implements Queue {
 	PCB front;
@@ -39,8 +39,12 @@ public class ShortestJobFirst implements Queue {
 
 	@Override
 	public PCB remove() {
-		PCB temp = front;
-		front = front.getNext();
+		if (isEmpty()) { 
+			System.out.println("there are no jobs in the Queue"); 
+			return null;
+		}
+		PCB temp = front.getNext();
+		front = temp.getNext();
 		--size;
 		return temp;
 	}
