@@ -51,6 +51,15 @@ public class PCB {
 		  this.cpuBursts[i] = Integer.parseInt(array[i]);
 	  };
   };
+    public void printBursts()
+  {	
+	  StringBuilder builder=new StringBuilder();
+	 for(int a: cpuBursts){
+		 System.out.print(a);
+		 System.out.print(" ");
+	 }
+	 System.out.println(" ");
+  }
   
   public void setNext(PCB next)
   {
