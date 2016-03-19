@@ -149,14 +149,31 @@ public class CPUScheduler {
 			if (CPUStatus==1)runJob(((Queue)ReadyQueue).remove());
 			a++;
 		}*/
-		
+		/*
 		while(a<10) {
 			insertRQ(getJob(inFile.nextLine()));
 			++a;
 		}
 		
 		((Queue)ReadyQueue).print();
-		
+		*/
+		int a=0;
+		while(a<10) {
+			String x=inFile.nextLine();
+			System.out.println(x);
+			
+			insertRQ(getJob(x));
+			
+			++a;
+		}
+
+		PCB node;
+			while(!ReadyQueue.isEmpty()){
+				node=((PCB)ReadyQueue.remove());
+				node.printStats();
+				node.printBursts();
+				
+			}
 		
 	}
 }
