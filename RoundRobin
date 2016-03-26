@@ -33,7 +33,7 @@ public class RoundRobin{
 		/**************************Ready Queue Construction**************************/
 		while(Systemjobs>0){
 		
-		gothroughburst();
+		run();
 		System.out.println("Number of System jobs: "+Systemjobs);
 		//if one job goes out another one come in
 		if(needmore==true){
@@ -52,7 +52,7 @@ public class RoundRobin{
 		scan.close();
 	}
 	
-	public void gothroughburst(){
+	public void run(){
 		PCB tempPCB=null;
 		PCB tempPCB2=null;
 		if(!RQ.isEmpty()){
@@ -61,19 +61,19 @@ public class RoundRobin{
 			System.out.println("PCB current value: "+tempPCB.returnCurrent());
 			PCB_burst_process_time_unit=0;
 			while(true){
-				if(tempPCB.isFirsttime){
+				/*if(tempPCB.isFirsttime){
 					System.out.println("Since we are running for the first time for value "+tempPCB.returnCurrent());
 					PCB_burst_process_time_unit=0;
 					//System.out.println(PCB_burst_left_time_unit);
 					tempPCB.isFirsttime=false;
-								}
+								}*/
 				if(PCB_burst_process_time_unit<allocatedtime){
 				PCB_burst_process_time_unit+=1;
 				CPUclock+=1;
-				tempPCB.PCB_burst_left_time_unit=tempPCB.PCB_burst_left_time_unit-1;
-				System.out.println("PCB burst left time unit "+tempPCB.PCB_burst_left_time_unit+"||"+"PCB id number: "+tempPCB.job_id+"||"+"PCB burst: "+tempPCB.returnCurrent());
+				tempPCB.setCurrent(tempPCB.returnCurrent()-1);
+				System.out.println("PCB id number: "+tempPCB.job_id+"||"+"PCB burst: "+tempPCB.returnCurrent());
 				
-				if(tempPCB.PCB_burst_left_time_unit<=0){
+				if(tempPCB.returnCurrent()<=0){
 					if(tempPCB.lastBurst()){
 						System.out.println("Last burst completed: "+tempPCB.returnCurrent());
 						tempPCB.isFirsttime=true;
@@ -99,6 +99,7 @@ public class RoundRobin{
 						}
 				}
 				else{
+					
 					ReadyQueue_Add(tempPCB);
 					System.out.println("Allocatedtime Reached");
 					System.out.println("Removed from CPU and Put into RQ PCB number: "+tempPCB.job_id);
@@ -132,7 +133,7 @@ public class RoundRobin{
 						}
 		else if(!BQ.isEmpty()){
 				System.out.println("RQ is empty but BQ is not case:");
-				CPUclock+=10;
+				CPUclock+=10;//need to fix
 				tempPCB2=BlockedQueue_Remove();
 				System.out.println("Removed from BQ and Put into RQ PCB number: "+tempPCB2.job_id);
 				ReadyQueue_Add(tempPCB2);
